@@ -1,0 +1,66 @@
+header {
+	background-color: #5F5C5D;
+	color: #fff;
+}
+
+body {
+	background-color: #000;
+}
+
+.imagem_logo {
+	max-width: 12em;
+	margin: auto;
+}
+
+header h1 {
+	font-family: 'Aladin';
+	font-size: 4em;
+	text-decoration: underline;
+	margin: auto;
+}
+
+.carousel {
+	margin-top: 2em;
+}
+
+.nav-item .nav-link {
+	color: #fff;
+}
+
+.nav-link {
+	text-align: center;
+}
+
+.navbar-nav .nav-link.active {
+	background-color: #303030;
+	color: #fff;
+}
+
+.card {
+	text-align: center;
+	margin-bottom: 3em;
+	background-color: #5F5C5D;
+	color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	header {
+		background-color: #ADAAAB;
+		color: #000;
+	}
+
+.nav-item .nav-link {
+	color: #000;
+}
+
+	header h1 {
+	font-family: 'Aladin';
+	font-size: 4em;
+	text-decoration: underline;
+	text-align: center;
+}
+
+}
+
+@media (min-width:320px) and (max-width: 375px) {
+}
